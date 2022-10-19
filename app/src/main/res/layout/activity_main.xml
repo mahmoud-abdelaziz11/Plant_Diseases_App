@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Plant Diseases App"
+        android:id="@+id/title"
+        android:textSize="30dp"
+        android:textColor="#42855B"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title"
+        android:text="Choose your plant:"
+        android:id="@+id/choose"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"/>
+
+    <Button
+        android:id="@+id/wheatbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="WheatDisease"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+
+    <Button
+        android:id="@+id/potatoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PotatoDisease"
+        android:layout_below="@id/wheatbtn"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+    <Button
+        android:id="@+id/tomatoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TomatoDisease"
+        android:layout_below="@id/potatoBtn"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+    <Button
+        android:id="@+id/paperBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PepperDisease"
+        android:layout_below="@id/tomatoBtn"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+
+</RelativeLayout>

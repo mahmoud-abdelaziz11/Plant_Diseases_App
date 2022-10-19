@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Potato Plant.."
+        android:textColor="#42855B"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/title"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Select Image"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture"
+        android:layout_below="@id/selectBtn"
+        android:id="@+id/captureBtn"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="predict"
+        android:layout_below="@id/captureBtn"
+        android:id="@+id/predictBtn"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:layout_below="@id/predictBtn"
+        android:id="@+id/aboutBtn"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#42855B"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:width="150dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="result : "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_below="@id/aboutBtn"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>
